@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto para comunicarse conmigo">
+    <meta name="keywords" content="contacto, mensaje, correo, soporte">
+    <meta name="author" content="Tu Nombre">
+    <title>Contacto - Mi Sitio Web</title>
+</head>
+<body> <!--cuerpazo de mi pagina -->
+      <h1>Mi Portafolio Profesional</h1> <!--titulo principal de mi pagina web-->
+        <nav> <!--contenedor para los elementos de navegación -->
+            <ul> <!--lista desordenada para organizar los enlaces del menú -->
+                <li><a href="index.html">Inicio</a></li> <!--hipervinculos de mi pagina web-->
+                <li><a href="proyectos.html">Proyectos</a></li><!--hipervinculos de mi pagina web-->
+                <li><a href="articulos.html">Artículos</a></li> <!--hipervinculos de mi pagina web-->
+                <li><a href="contacto.html">Contacto</a></li><!--hipervinculos de mi pagina web-->
+        </nav>
+    </header>
+    <main> <!-- Contenido principal de contacto -->
+        <section> <!--secccion que contiene el formulario-->
+            <h2>Contacto</h2> <!-- Título de la sección -->
+            <p>Si le gustaria habalr conmigo llene el formulario total no le voy aresponder :/</p> <!-- Instrucciones sencillas -->
+
+            <form action="#" method="POST"> <!--formulario para recibir datos-->
+                <div> <!--caja para separar el campo del nombre -->
+                    <label for="nombre">Nombre:</label><br> <!--pedimos el nombre-->
+                    <input type="text" id="nombre" name="nombre" required> <!--casilla de texto para escribir el nombre de forma obligatoria-->
+                </div>
+                <br>
+                <div> <!--parte del correo electronico-->
+                    <label for="correo">Correo Electrónico:</label><br> <!--pedimos el correo electronico-->
+                    <input type="email" id="correo" name="correo" required> <!-- casilla paar escribir el correo -->
+                </div>
+                <br>
+                <div> <!--parte para saber que quiere de mi-->
+                    <label for="mensaje">Mensaje:</label><br> <!--pedimos el mensaje-->
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea> <!--texterea lo usamso para escribir un mensaje amplio-->
+                </div>
+                <br>
+                <div> <!-- Caja para ubicar el botón -->
+                    <button type="submit">Enviar Mensaje</button> <!--boton para enviar la informacion de ususario-->
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer> <!-- Pie de página -->
+        <p>&copy; 2026 - Todos los derechos reservados.</p> <!-- Derechos de autor -->
+    </footer>
+</body>
+</html>
